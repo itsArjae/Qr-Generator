@@ -23,7 +23,7 @@ export default function QrGenerator() {
     <div className={styles.container} >
         <div className={styles.content} >
           <div className={styles.header}>
-            <img src='/pictures/mylogo.png' alt="Logo"  />
+            <img src='/pictures/myLogo.png' alt="Logo"  />
           </div>
           <div className={styles.Inputs__Box} >
               <input placeholder='Enter a link' onChange={(event)=>{seturl(event.target.value)}} value={url} />
